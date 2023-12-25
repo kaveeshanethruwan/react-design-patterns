@@ -1,5 +1,7 @@
+import { NumberedList } from "./NumberedList.js";
 import { LargePersonListItem } from "./people/LargePersonListItem";
 import { SmallPersonListItem } from "./people/SmallPersonListItem";
+import { SmallProductsListItem } from "./products/SmallProductsListItem.js";
 import { RegularList } from "./RegularList.js";
 
 const people = [
@@ -49,6 +51,8 @@ function ListsAndListItemsHandler() {
     <>
       <RegularList items={people} resourceName="person" itemComponent={SmallPersonListItem} />
       <RegularList items={people} resourceName="person" itemComponent={LargePersonListItem} />
+
+      <NumberedList items={products} resourceName="product" itemComponent={SmallProductsListItem} />
     </>
   );
 }
