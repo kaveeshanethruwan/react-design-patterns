@@ -8,3 +8,7 @@
 
    1. Split screens
    2. lists and list items
+
+2. Container components
+
+   Components that take care of loading and managing data for their child components.
