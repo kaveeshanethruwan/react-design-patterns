@@ -18,3 +18,7 @@
    Uncontrolled components: Uncontrolled components, on the other hand, allow the DOM to maintain the state of the form elements. The values are not controlled by React's state but rather directly by the DOM, using refs to access their values when needed.
 
    Controlled components: In controlled components, form elements such as input, textarea, and select are controlled by React state. The component's state is the single source of truth for the input value, and the value is managed by the component through its state.
+
+4. Higher order components
+
+   Higher order components are just functions that return component. Why: sharing complex behavior between multiple components.
