@@ -22,3 +22,7 @@
 4. Higher order components
 
    Higher order components are just functions that return component. Why: sharing complex behavior between multiple components.
+
+5. Custom hooks
+
+   Sharing complex behavior between multiple components. modern approach to HOC.

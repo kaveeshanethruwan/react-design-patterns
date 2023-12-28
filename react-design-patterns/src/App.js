@@ -1,5 +1,6 @@
 import ContainerComponentHandler from "./containerComponentPattern";
 import ControlledAndUncontrolledComponents from "./controlledAndUncontrolledComponents";
+import CustomHooksHandler from "./customeHooks";
 import HigherOrderComponentsHandler from "./higherOrderComponents";
 import ListsAndListItemsHandler from "./layoutComponentPattern/listsAndListItems";
 import SplitHandler from "./layoutComponentPattern/splitScreen";
@@ -10,7 +11,8 @@ function App() {
     // <ListsAndListItemsHandler />
     // <ContainerComponentHandler />
     // <ControlledAndUncontrolledComponents />
-    <HigherOrderComponentsHandler />
+    // <HigherOrderComponentsHandler />
+    <CustomHooksHandler />
   );
 }
 
